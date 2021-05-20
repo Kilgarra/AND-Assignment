@@ -26,3 +26,7 @@ Could have
 - [X] As a user, I want the application to support the Hungarian language, so that I can better understand it.
 - [ ] As a user, I want to be able to select what my alarm will sound like, so that I can have an alarm sound that's preferable to me.
 - [X] As a user, I want to be able to select the time format of the application, so that I can use it according to my preferences.
+
+References:
+- https://github.com/KasperKnop
+- https://developer.android.com/
