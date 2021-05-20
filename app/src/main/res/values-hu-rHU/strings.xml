@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EZpills</string>
+    <string name="settings">Beállítások</string>
+    <string name="content_description_settings">Beállítások</string>
+    <string name="content_description_about">Rólunk</string>
+    <string name="hello_feedback_fragment">Visszajelzés</string>
+    <string name="hello_about_fragment">Rólunk</string>
+    <string name="contact">Kontakt</string>
+    <string name="content_description_contact">Kontakt</string>
+    <string name="feedback">Visszajelzés</string>
+    <string name="content_description_feedback">Visszajelzés</string>
+    <string name="Vitamins">Vitaminok</string>
+    <string name="aboutItem">Rólunk</string>
+    <string name="edit_selected_prescription_button">Orvosi recept módosítása</string>
+    <string name="delete_selected_prescription_button">Orvosi recept törlése</string>
+    <string name="selected_prescription_time_of_notification_textview">Értesítés ideje:</string>
+    <string name="selected_precription_name_textview">Név:</string>
+    <string name="selected_prescription_title">Orvosi recept</string>
+    <string name="edit">Módosítás</string>
+    <string name="add">Hozzáadás</string>
+    <string name="select_type">Típus kiválasztása</string>
+    <string name="add_name">Név</string>
+    <string name="select_time">Idő kiválasztása</string>
+    <string name="selected_vitamin_title">Vitamin</string>
+    <string name="selected_vitamin_name_textview">Név:</string>
+    <string name="selected_vitamin_time_of_notification_textview">Értesítés ideje:</string>
+    <string name="edit_selected_vitamin_button">Vitamin módosítása</string>
+    <string name="delete_selected_vitamin_button">Vitamin törlése</string>
+    <string name="sign_in">Bejelentkezés</string>
+    <string name="about_title">Rólunk</string>
+    <string name="contact_email">Email:</string>
+    <string name="contact_phone">Telefon:</string>
+    <string name="feedback_submit">Elküldés</string>
+    <string name="go_to_prescriptions">Orvosi receptjeim</string>
+    <string name="go_to_vitamins">Vitaminjaim</string>
+    <string name="prescriptions">Orvosi receptek</string>
+    <string name="sign_out">Kijelentkezés</string>
+    <string name="time_format">Idő formátuma:</string>
+    <string name="prescription">Orvosi recept</string>
+    <string name="vitamin">Vitamin</string>
+    <string name="about">"Az EZpills alkalmazás megkönnyíti, hogy számon tartsa az orvosi receptjeit és vitaminjait. A kontakt információnkért menjen a Kontakt oldalra. "</string>
+    <string name="feedback_text">Itt küldhet nekünk visszajelzést az alkalmazásunkról. Az üzenetét elküldjük az email címünkre, ahol az egyik alkalmazottunk átnézi majd.</string>
+</resources>

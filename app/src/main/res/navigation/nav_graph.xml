@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <action android:id="@+id/action_global_sign_in"
+        app:destination="@+id/signInActivity"/>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.and_assignment.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_feedbackFragment"
+            app:destination="@id/feedbackFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_prescriptionsFragment"
+            app:destination="@id/prescriptionsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_vitaminsFragment"
+            app:destination="@id/vitaminsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.and_assignment.ui.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.and_assignment.ui.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.and_assignment.ui.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" >
+        <action
+            android:id="@+id/action_contactFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackFragment"
+        android:name="com.example.and_assignment.ui.FeedbackFragment"
+        android:label="fragment_feedback"
+        tools:layout="@layout/fragment_feedback" >
+        <action
+            android:id="@+id/action_feedbackFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.and_assignment.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.and_assignment.ui.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.example.and_assignment.ui.SignInActivity"
+        android:label="activity_sign_in"
+        tools:layout="@layout/activity_sign_in" />
+    <fragment
+        android:id="@+id/prescriptionsFragment"
+        android:name="com.example.and_assignment.ui.PrescriptionsFragment"
+        android:label="fragment_prescriptions"
+        tools:layout="@layout/fragment_prescriptions" >
+        <action
+            android:id="@+id/action_prescriptionsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_prescriptionsFragment_to_selectedPrescriptionFragment"
+            app:destination="@id/selectedPrescriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vitaminsFragment"
+        android:name="com.example.and_assignment.ui.VitaminsFragment"
+        android:label="fragment_vitamins"
+        tools:layout="@layout/fragment_vitamins" >
+        <action
+            android:id="@+id/action_vitaminsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_vitaminsFragment_to_selectedVitaminFragment"
+            app:destination="@id/selectedVitaminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectedPrescriptionFragment"
+        android:name="com.example.and_assignment.ui.SelectedPrescriptionFragment"
+        android:label="fragment_selected_prescription"
+        tools:layout="@layout/fragment_selected_prescription" >
+        <action
+            android:id="@+id/action_selectedPrescriptionFragment_to_prescriptionsFragment"
+            app:destination="@id/prescriptionsFragment" />
+        <action
+            android:id="@+id/action_selectedPrescriptionFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_selectedPrescriptionFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectedVitaminFragment"
+        android:name="com.example.and_assignment.ui.SelectedVitaminFragment"
+        android:label="fragment_selected_vitamin"
+        tools:layout="@layout/fragment_selected_vitamin" >
+        <action
+            android:id="@+id/action_selectedVitaminFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_selectedVitaminFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.and_assignment.ui.EditFragment"
+        android:label="EditFragment"
+        tools:layout="@layout/fragment_edit" />
+
+</navigation>

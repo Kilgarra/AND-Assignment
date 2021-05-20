@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FeedbackFragment"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback"
+            android:textSize="30dp"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_text"
+            android:textSize="20dp"
+            android:padding="20dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/feedback_editText"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp">
+
+        </EditText>
+        <Button
+            android:id="@+id/feedback_submit"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:text="@string/feedback_submit"
+            android:layout_gravity="center">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</FrameLayout>
