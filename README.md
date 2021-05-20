@@ -7,7 +7,7 @@ EZpills
 Requirements
 
 Must have
-- [X] As a user I want to be able to create an account so that I can keep track of my prescriptions and vitamins.
+- [X] As a user I want to be able to create an account and log in so that I can keep track of my prescriptions and vitamins.
 - [X] As a user I want to be able to add new prescriptions so that I can keep track of when to take my pills. 
 - [X] As a user I want to be able to add new vitamins so that I can keep track of when to take my pills. 
 
