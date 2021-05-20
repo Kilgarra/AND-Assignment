@@ -1,5 +1,7 @@
 # AND-Assignment
 
+https://youtu.be/9ZccBaDMw1U
+
 This application is for tracking prescriptions, where the user can create an account, log in and add their prescriptions and vitamins. They can set the name of the pills and when they want a reminder to take the pill. 
 
 EZpills
